@@ -1,0 +1,35 @@
+.nav_container{
+    height: 80px;
+    background-color: #F05A22;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-logo{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.nav_child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    background-color: white;
+    padding-inline: 20px;
+    padding-block: 8px;
+    border-radius: 30px;
+}
+
+.active{
+    border-bottom:2px solid #F05A22;
+    filter: brightness(0.1) contrast(1.5);
+}
+
+
