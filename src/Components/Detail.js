@@ -89,7 +89,7 @@ const Detail = () => {
           data &&
           <>
             <div className='post_detail' style={{ backgroundImage: `url(https://picsum.photos/200?random=${id})` }}>
-              <p>{data.title}</p>
+              <p><strong>{data.title}</strong></p>
               <div>
                 <img src={share} alt='share'/>
                 { 
